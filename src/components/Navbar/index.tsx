@@ -10,8 +10,8 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
         <h2 style={styles.logo}>TCorrection</h2>
       </Link>
       <div style={styles.linkBoxRoot}>
-        <PageLink href="./corectare">Corectare</PageLink>
-        <PageLink href="#">Rezultate</PageLink>
+        <PageLink href="/corectare">Corectare</PageLink>
+        <PageLink href="/rezultate">Rezultate</PageLink>
         <PageLink href="#">Info</PageLink>
       </div>
     </div>

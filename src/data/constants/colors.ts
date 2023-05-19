@@ -54,4 +54,10 @@ export const COLORS = {
   beige_50: "#897E6E",
   beige_100: "#5C5244",
   beige_200: "#332A1D",
+
+  purple_0: "#B24CF7",
+  purple_25: "#A13CD4",
+  purple_50: "#902BB0",
+  purple_100: "#7F1B8D",
+  purple_200: "#6E0A69",
 };

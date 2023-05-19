@@ -48,13 +48,16 @@ export default function Corectare() {
 
   return (
     <main style={styles.root}>
-      <Dropdown
-        value={uploadDataType}
-        setValue={setUploadDataType}
-        title="Tip"
-        optionList={UPLOAD_DATA_TYPES}
-        width={100}
-      />
+      <div>
+        <Dropdown
+          value={uploadDataType}
+          setValue={setUploadDataType}
+          title="Tip"
+          optionList={UPLOAD_DATA_TYPES}
+          width={100}
+        />
+      </div>
+
       <div
         style={{
           display: "flex",
@@ -79,7 +82,6 @@ export default function Corectare() {
             <input
               type="file"
               accept=".txt"
-              style={{ width: 200, height: 200, backgroundColor: "blue" }}
               onChange={handleFileUpload}
             />
           </div>
@@ -116,13 +118,16 @@ export default function Corectare() {
           </div>
         )}
       </div>
-      <Dropdown
-        value={century}
-        setValue={setCentury}
-        title="Secol"
-        optionList={SECOLE}
-        width={100}
-      />
+      <div>
+        <Dropdown
+          value={century}
+          setValue={setCentury}
+          title="Secol"
+          optionList={SECOLE}
+          width={100}
+        />
+      </div>
+
       <Button onClick={handleSubmit} title="Corecteaza" />
     </main>
   );

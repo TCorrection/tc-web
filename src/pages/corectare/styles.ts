@@ -11,6 +11,7 @@ export const CorrectionPageStyles: CorrectionPageStylesI = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    gap: 16,
   },
   footerRoot: {
     display: "flex",

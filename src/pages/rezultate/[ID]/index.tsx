@@ -27,19 +27,25 @@ export default function Rezultat() {
   }, [ID]);
 
   return (
-    <main>
+    <main style={{ padding: 32}}>
       <h3>ID:</h3>
       <p>{result?.id}</p>
+      <br/>
       <h3>Secol:</h3>
       <p>{result?.century}</p>
+      <br/>
       <h3>Precision:</h3>
       <p>{result?.precision}</p>
+      <br/>
       <h3>Recall:</h3>
       <p>{result?.recall}</p>
+      <br/>
       <h3>Text original:</h3>
       <p>{result?.originalText}</p>
+      <br/>
       <h3>Text corectat:</h3>
       <p>{result?.correctedText}</p>
+      <br/>
       <h3>Creeat la:</h3>
       <p>{result?.createdAt.toLocaleString()}</p>
     </main>
